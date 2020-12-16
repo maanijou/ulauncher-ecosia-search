@@ -5,7 +5,7 @@ For more information, go to [Ecosia webpage](https://info.ecosia.org/what).
 
 # Basic usage
 
-![Usage][images/usage.png]
+![Usage](/images/usage.png)
 
 
 # Install
