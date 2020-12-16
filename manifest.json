@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Ecosia Search",
+  "description": "Search using Ecosia",
+  "developer_name": "Reza (Milad) Maanijou",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "ecosia_search_keyword",
+      "type": "keyword",
+      "name": "Ecosia Search",
+      "description": "Search using Ecosia",
+      "default_value": "ecosia"
+    }
+  ]
+}
