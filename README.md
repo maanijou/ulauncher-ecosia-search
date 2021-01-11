@@ -1,4 +1,9 @@
-# Ecosia search
+# Ulauncher
+ Ulauncher is an Application launcher for Linux.
+ 
+ You can install it from [here](https://ulauncher.io/#Download).
+
+# Ecosia search Extention for Ulauncher
 Ecosia is the search engine that plants trees! 
 
 For more information, go to [Ecosia webpage](https://info.ecosia.org/what).
