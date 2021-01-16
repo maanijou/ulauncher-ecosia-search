@@ -7,20 +7,16 @@ from ulauncher.api.shared.item.ExtensionResultItem import ExtensionResultItem
 from ulauncher.api.shared.action.DoNothingAction import DoNothingAction
 from ulauncher.api.shared.action.OpenUrlAction import OpenUrlAction
 
+from . import constants
 
 log = logging.getLogger(__name__)
-log.setLevel(logging.DEBUG)
-
-
-SUGGESTION_URL = 'https://ac.ecosia.org/autocomplete?mkt=en-us&'
-SEARCH_URL = 'https://www.ecosia.org/search?'
-ICON_FILE = 'images/icon.png'
+# log.setLevel(logging.DEBUG)
 
 
 def get_results(query):
     suggestions = []
     try:
-        url = SUGGESTION_URL + urllib.parse.urlencode({'q': query})
+        url = constants.SUGGESTION_URL + urllib.parse.urlencode({'q': query})
         req = urllib.request.urlopen(url)
         data = req.read()
 
@@ -32,10 +28,10 @@ def get_results(query):
     suggestions = [query] + suggestions
     return [
         ExtensionResultItem(
-            icon=ICON_FILE,
+            icon=constants.ICON_FILE,
             name=suggestion,
             on_enter=OpenUrlAction(
-                SEARCH_URL + urllib.parse.urlencode({'q': suggestion}))
+                constants.SEARCH_URL + urllib.parse.urlencode({'q': suggestion}))
         )
         for suggestion in suggestions]
 
@@ -43,7 +39,7 @@ def get_results(query):
 def no_action():
     return [
         ExtensionResultItem(
-            icon=ICON_FILE,
+            icon=constants.ICON_FILE,
             name='No results',
             on_enter=DoNothingAction()
         )
