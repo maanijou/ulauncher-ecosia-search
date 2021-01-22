@@ -18,7 +18,11 @@ class KeywordQueryEventListener(EventListener):
     def on_event(self, event, extension):
         query = event.get_argument() or str()
         if len(query.strip()) == 0:
-            return RenderResultListAction(no_action())
+            count = get_trees_count()
+            if len(count):
+                return RenderResultListAction(count)
+            else:
+                return RenderResultListAction(no_action())
         else:
             if query.strip() == '#count':
                 count = get_trees_count()

@@ -27,7 +27,7 @@ def get_trees_count():
         return [
             ExtensionResultItem(
                 icon=constants.ICON_FILE,
-                name=f'{count} trees planted with rate: {rate}',
+                name=f'{count:,} trees planted with rate: {rate}!',
                 on_enter=DoNothingAction()
             )]
     else:
