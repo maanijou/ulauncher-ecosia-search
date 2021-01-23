@@ -24,9 +24,7 @@ class KeywordQueryEventListener(EventListener):
             else:
                 return RenderResultListAction(no_action())
         else:
-            if query.strip() == '#count':
-                count = get_trees_count()
-            return RenderResultListAction(count + get_results(query))
+            return RenderResultListAction(get_results(query))
 
 
 if __name__ == '__main__':
