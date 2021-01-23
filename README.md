@@ -3,6 +3,8 @@
  
  You can install it from [here](https://ulauncher.io/#Download).
 
+ This extension requires Ulauncher version 5.0+.
+
 # Ecosia search Extention for Ulauncher
 Ecosia is the search engine that plants trees! 
 
@@ -10,8 +12,9 @@ For more information, go to [Ecosia webpage](https://info.ecosia.org/what).
 
 # Basic usage
 
-![Usage](/images/usage.png)
+Open Ulauncher and start searching by writing `ecosia` and your search query! You can open the result in your default browser by selecting one of the results.
 
+![Preview](tutorial.gif)
 
 # Install
 
