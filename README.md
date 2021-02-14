@@ -27,4 +27,4 @@ Go to Ulauncher preferences window > EXTENSIONS > Add extension and paste the fo
 The default keyword to call the Ecosia plugin is "ecosia". You can change it to whatever you want in the preferences.
 
 
-Note: [Ecosia](https://www.ecosia.org/) and all its assets are property of [Ecosia GmbH](https://info.ecosia.org/about).
+*Note*: [Ecosia](https://www.ecosia.org/) and all its assets are property of [Ecosia GmbH](https://info.ecosia.org/about).
