@@ -10,7 +10,7 @@ Ecosia is the search engine that plants trees!
 
 For more information, go to [Ecosia webpage](https://info.ecosia.org/what).
 
-With this extension, you will be able to search inside Ecosia through Ulauncher. You can Ecosia [search tags](https://ecosia.zendesk.com/hc/en-us/articles/201657321-What-are-search-tags-) in your queries.
+With this extension, you will be able to search inside Ecosia through Ulauncher. You can use Ecosia [search tags](https://ecosia.zendesk.com/hc/en-us/articles/201657321-What-are-search-tags-) in your queries.
 
 # Basic usage
 
